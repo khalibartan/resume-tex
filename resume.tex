@@ -1,0 +1,145 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,bitstream]{moderncv}
+
+% possible options include font size ('10pt', '11pt' and '12pt'),
+% paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper',
+% 'executivepaper' and 'landscape') and font family ('sans' and
+% 'roman')
+
+%\renewcommand{\familydefault}{bitstream-charter} % to set the default font;
+%use '\sfdefault' for the default sans serif font, '\rmdefault' for
+%the default roman one, or any tex font name
+
+\moderncvstyle{classic}
+% style options are 'casual' (default), 'classic', 'oldstyle' and
+% 'banking'
+
+\moderncvcolor{blue}
+% color options 'blue' (default), 'orange', 'green', 'red', 'purple',
+% 'grey' and 'black'
+
+\nopagenumbers{}
+
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+
+\name{Utkarsh}{Gupta}
+\address{Room no:9 RN Tagore Hostel}{Motilal Nheru National Institute of Technology}{Allahabad - 211004 India}
+\email{utkarsh.gupta550@gmail.com}
+\github{http://github.com/khalibartan/}
+
+\newcommand{\tinygap}{\vspace{7 pt}}
+\newcommand{\largegap}{\vspace{10 pt}}
+
+\begin{document}
+
+\makecvtitle
+
+\largegap
+\section{Education}
+
+\tinygap
+\vbox{\cventry{2014--2018}{Bachelor of Technology}{Motilal Nheru National Institute of Technology Allahabad}{}{}{
+Information \& Technology - \textbf{8.65/10 GPA}}}
+\vbox{\cventry{2013--14}{Intermediate}{HAL School Korwa, Amethi}{}{}{
+Science stream, with Physical Education -\textbf{94\%}}}
+
+\largegap
+\section{Work Experience}
+
+\tinygap
+\cventry{November 2015--Present}{
+  Open Source Contributor
+}{
+    pgmpy:A Python package for Probabilistic Graphical Models 
+}{}{}{
+%
+    Wrote BIF reader ,BIF writer and its test suit. Rewrote Joint Probability Distribution class and its test suit.Implemented methods related to I-equivalence. Fixed compatibility issues with python 2.7.x .
+%
+}
+\tinygap
+\cventry{October 2015--Present}{
+ 	Antidote DM
+}{
+    A download manger written in Python
+}{}{}{
+%
+    Wrote a GUI software in python that can Download files from web, and with some special features that can search and download from specific sites . Implemented as a part of Softablitz.
+%
+}
+\tinygap
+\cventry{October 2015}{
+ 	Character Classifier and Digit recognizer
+}{
+    A machine learning script
+}{}{}{
+%
+    Wrote a python script that classifies character in an image using support vector machine (This was implemented as a part of Logical rhythm).
+    I implemented a deeplearning 2d-convolutional neural network using tensorflow API for digit recognition, accuracy obtained was 99.1\% (on testing dataset). I was ranked 84th out of 1100+ teams (on kaggle digit recognizer, as of April 2016).
+%
+}
+\tinygap
+\cventry{April 2015--Present}{
+ 	Pyrag Sports API
+}{
+    A command line tool with web API
+}{}{}{
+%
+    This tool was implemented as part of Hack In the North (IIIT-A). Our team implemented a command line tool with web API to get latest updates for football and cricket.
+%
+}
+
+\largegap
+\section{Achievements}
+\tinygap
+\cventry{October 2015}{
+ 	Third in Softablitz
+}{
+    A software development competition in Tech-fest of MNNIT
+}{}{}{
+%
+    Implemented the Antidote DM
+%
+}
+\tinygap
+\cventry{October 2015}{
+ 	Runner up in Logical Rhythm
+}{
+   Machine learning event in Tech-fest of MNNIT
+}{}{}{
+%
+   Wrote a python script that classifies character in an image using support vector machine. Also wrote a python script for context based search using TF-IDF .
+%
+}
+% \section{Skills \& Expertise}
+%
+% \cventry{}{Competent\hspace{0.1cm}}{Python}{}{}{}
+% \cventry{}{Proficient\hspace{0.4cm}}{C, Git, Vim, JavaScript}{}{}{}
+% \cventry{}{Familiar\hspace{0.7cm}}{C++, MIT Scheme, HTML, CSS, Java, Ruby, \LaTeX}{}{}{}
+\largegap
+\section{Programming Languages and Tools}
+\tinygap
+\vbox{\cventry{}{Proficient}{Python, C, Vim, Git}{}{}{}}
+\vbox{\cventry{}{Familiar}{C++, R, Octave, OpenCL (C/C++/Python), Cuda, Linux Utilities, \LaTeX}{}{}{}}
+\largegap
+\section{Course Work}
+
+\tinygap
+\vbox{\cventry{}{Mathematics}{Linear Algebra, Transform
+Calculus, Discrete Mathematics, Numerical Solution to Ordinary
+and Partial Differential Equations, Partial Differential Equations, Vector Calculus}{}{}{}}
+\vbox{\cventry{}{Computer Science}{Programming and Data Structures, Shell scripting, Algorithms, Computer Organization, Automata theory}{}{}{}}
+\vbox{\cventry{}{Electronics}{Analog and Digital electronics, Signals and System, Communication theory}{}{}{}}
+\vbox{\cventry{}{Open Course-ware}{Machine Learning, Finding Hidden Messages in DNA-I, Heterogeneous system Programming, Introduction to R}{}{}{}}
+\vbox{\cventry{}{Miscellaneous}{Technical Writing}{}{}{}}
+
+\end{document}
