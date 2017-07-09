@@ -1,2 +1,2 @@
 # resume-tex
-My tex documents for wriiting resume
+My tex documents for writing resume
